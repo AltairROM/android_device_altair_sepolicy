@@ -14,7 +14,12 @@ vendor.camera.skip_unconfigure.packagelist  u:object_r:camera2_extensions_prop:s
 # Custom legal URL
 ro.lineagelegal.url                    u:object_r:legal_url_prop:s0
 
-# Custom version
+# Custom version (altair)
+ro.altair.build.version                u:object_r:custom_version_prop:s0
+ro.altair.display.version              u:object_r:custom_version_prop:s0
+ro.altair.version                      u:object_r:custom_version_prop:s0
+
+# Custom version (lineage)
 ro.lineage.version                     u:object_r:custom_version_prop:s0
 ro.lineage.display.version             u:object_r:custom_version_prop:s0
 ro.lineage.build.version               u:object_r:custom_version_prop:s0
