@@ -31,3 +31,6 @@ allow system_server app_zygote:process setsched;
 
 # Linearmotor Vibrator
 add_service(system_server, linearmotor_vibrator_service);
+
+# Theme Engine
+add_service(system_server, theme_engine_service);
